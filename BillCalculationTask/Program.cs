@@ -23,13 +23,13 @@
             
             int TotalCharge = 0;
             Console.WriteLine("Please enter how many people are in your group: ");
-            int NumberOfPeople = Convert.ToInt32(Console.ReadLine());
-            TotalCharge = NumberOfPeople * 5;
-            if(NumberOfPeople >= 6)
+            int NumberOfPeople = Convert.ToInt32(Console.ReadLine());  //A Inputting and stroring variable
+            TotalCharge = NumberOfPeople * 5; //C Multiplication, E
+            if(NumberOfPeople >= 6) //B Selection, D Correct boolean Exp
             {
                 TotalCharge = TotalCharge - 5;
             }
-            Console.WriteLine("Your total charge is: £" + TotalCharge);
+            Console.WriteLine("Your total charge is: £" + TotalCharge); //F
 
         }
     }
